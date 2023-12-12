@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+//* VARIABLES *//
+
+:root {
+  --fuente-poppins: "Poppins", sans-serif;
+  --fuente-montse: "Montserrat", sans-serif;
+}
+
+body {
+  
+}
+
+main {
+    font-family: var(--fuente-montse);
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 56, 103);
+  background: linear-gradient(
+    50deg,
+    rgba(255, 56, 103, 1) 0%,
+    rgba(255, 200, 115, 1) 55%,
+    rgba(211, 126, 198, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: dimgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+
+
+.hero-image{
+    height: 30%;
+    text-align: center;
+    position: relative;
+    background-color: green;
+}
+.img-avatar {
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 41%;
+}
+
+.card-content{
+    display: inline;
+    text-align: center;
+
+}
+.card-content h1 {
+    color: #000;
+}
+.card-content h4 {
+    
+    color: #a05d5db2;
+    
+    font-size: 10px;
+}
+.card-content p {
+    padding: 15px;
+}
+
+.btn{
+    font-size: px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+
+
+}
+.btn:hover{
+    cursor: pointer;
+    background: rgb(255, 56, 103);
+    color: #fff;
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+}
